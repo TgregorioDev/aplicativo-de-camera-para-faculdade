@@ -5,8 +5,8 @@ import { Camera, CameraResultType, CameraSource } from '@capacitor/camera';
 
 @Component({
   selector: 'app-home',
-  standalone: true, // 👈 importante para modo standalone
-  imports: [CommonModule, IonicModule], // 👈 módulos necessários
+  standalone: true, 
+  imports: [CommonModule, IonicModule],
   templateUrl: './home.page.html',
   styleUrls: ['./home.page.scss']
 })
